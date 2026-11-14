@@ -38,6 +38,10 @@ You must store workflow files in the `.github/workflows` directory of your repos
 
 {% data reusables.actions.workflows.workflow-syntax-name %}
 
+## `description`
+
+A description for your workflow or reusable workflow.
+
 ## `run-name`
 
 The name for workflow runs generated from the workflow. {% data variables.product.prodname_dotcom %} displays the workflow run name in the list of workflow runs on your repository's "Actions" tab. If `run-name` is omitted or is only whitespace, then the run name is set to event-specific information for the workflow run. For example, for a workflow triggered by a `push` or `pull_request` event, it is set as the commit message or the title of the pull request.
